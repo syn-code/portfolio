@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div class="wrap">
+<div class="wrap" id="app">
     @include('includes.header')
     <!-- Main Background image -->
     <!-- TODO look at sorting this section out by either adding images into the html -->
@@ -19,8 +19,5 @@
     @yield('content')
 </div>
 @include('includes.footer')
-{{--TODO move to toggleMenu.js app.js--}}
-<script src="{{ asset('/js/toggleMenu.js') }}"></script>
-<script src="{{ asset('/js/app.js') }}"></script>
 </body>
 </html>

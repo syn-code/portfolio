@@ -7,6 +7,6 @@
     </ul>
 </nav>
 
-<a href="#" id="menu-icon" style="display:none;" onclick="toggleMenu();">
+<a href="#" id="menu-icon" style="display:none;">
     <i class="fas fa-bars"></i>
 </a>

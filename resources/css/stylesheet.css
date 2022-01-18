@@ -56,16 +56,11 @@
         display:block !important;
         margin-top: 5px;
     }
-    
+
     #menu ul li:hover{
         background-color: #c8d93b;
         border-radius: 5px;
     }
-
-   
-
-
-
 }
 
 
@@ -84,12 +79,10 @@
     }
 } */
 
-
-
 @media (max-width: 638px){
 
     /* #toggle-nav {
-        display: 
+        display:
     } */
 
     /* #menu {
@@ -160,7 +153,9 @@ h2 {
    Hamburger icon
 ===================*/
 
-
+.display-none {
+    display: none;
+}
 nav{
     float:right;
     margin-top: 60px;
@@ -211,7 +206,7 @@ nav ul li.active {
     animation-duration: 5s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
-    animation-delay: 1s; 
+    animation-delay: 1s;
 }
 
 .title {
@@ -227,20 +222,20 @@ nav ul li.active {
 
 /*TODO: work on this transition and look to improve this*/
 @keyframes testing {
-    
+
     10% {
         background-image: url("../images/design-development.jpg");
-        
+
     }
 
     50% {
         background-image: url("../images/pencils.jpg");
-    } 
+    }
 
     100% {
         background-image: url("../images/design-development.jpg");
     }
-} 
+}
 
 
 #section-3 {
@@ -253,12 +248,12 @@ nav ul li.active {
 
     display:flex;
     justify-content: center;
-     
+
 }
 
 .blurb {
     width: 32.33%;
-    
+
     display: inline-block;
     text-align: center;
     background-color: #231f20; /*#c8d93b*/
@@ -273,8 +268,8 @@ nav ul li.active {
     /* flex-direction: column; */
     flex-direction: column;
     justify-content: space-between;
-    
-    
+
+
 }
 
 /* .blurb img {
@@ -288,7 +283,7 @@ nav ul li.active {
 }
 
 .blurb h3 {
-  
+
     color: white;
     font-size:24px;
     font-weight: bold;
@@ -321,7 +316,7 @@ nav ul li.active {
 .main-footer ul li a {
     color: #fff;
     text-decoration: none;
-    
+
 }
 .main-footer ul li a:hover {
     color:#c8d93b;

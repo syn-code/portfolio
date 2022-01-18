@@ -5,3 +5,4 @@
         <li><a href="https://www.linkedin.com/in/james-j-645949b0/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
     </ul>
 </footer>
+<script defer src="{{ asset('/js/app.js') }}"></script>
