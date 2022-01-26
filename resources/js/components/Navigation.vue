@@ -1,8 +1,6 @@
 <template>
-    <fragment>
         <nav-list :navList="navigation"></nav-list>
         <nav-burger-button></nav-burger-button>
-    </fragment>
 </template>
 
 <script>
