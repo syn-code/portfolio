@@ -16,7 +16,10 @@
     <!-- TODO look at sorting this section out by either adding images into the html -->
     <section id="section-2">
     </section>
-    @yield('content')
+        <router-view
+            crayon-icon="{{ asset('images/crayon-icon.png') }}"
+            gears-icon="{{ asset('images/gears-icon.png') }}"
+        ></router-view>
 </div>
 @include('includes.footer')
 </body>
