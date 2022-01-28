@@ -2,7 +2,8 @@
     <nav id="menu">
         <ul>
             <li v-for="nav in navList" :key="nav" :class="{active: nav === 'Home'}">
-                <a href="#" @click="changeActiveState($event)">{{nav}}</a>
+                <router-link to="#">{{ nav }}</router-link>
+<!--                <a href="#" @click="changeActiveState($event)">{{nav}}</a>-->
             </li>
         </ul>
     </nav>
